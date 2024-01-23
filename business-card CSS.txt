@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #03045e;
+    color: #ffd60a;
+    border: 6px solid #d62828;
+    border-radius: 20px;
+    box-shadow: 15px 20px 25px black;
+    transform: perspective(400px) rotateY(20deg);
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
